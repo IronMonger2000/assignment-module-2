@@ -1,0 +1,100 @@
+.details {
+  /* done */
+  height: 40px;
+  padding: 5px;
+  margin-right: 36px;
+  border: 4px solid black;
+  /* done */
+  margin-top: 0px;
+  position: relative;
+  font-weight: bold;
+  width: 100px;
+  float: right;
+  text-align: center;
+  overflow: none;
+}
+
+h1 {
+  /* done */
+  font-size: 50px;
+  margin-bottom: 15px;
+  text-align: center; /* done */
+}
+
+.row {
+  /* done */
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.smallBox {
+  width: 100%;
+  overflow: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.values {
+  /* done */
+  color: black;
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 5px solid black;
+  height: auto;
+  padding: 2%; /* done */
+  width: 90%;
+  margin: 2.5%;
+  padding-top: 55px;
+}
+
+.title2 {
+  background-color: #ff0000;
+  color: white;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  /* done */
+  .details {
+    margin-right: 30px;
+  }
+  .coSet12 {
+    width: 100%;
+    float: left;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* done */
+  .Comet6 {
+    width: 50%;
+  }
+  .title3 {
+    margin-right: 65px;
+    width: 100px;
+  }
+  .coLMet12 {
+    width: 100%;
+    /* done */
+    margin-left: -10px;
+  }
+  .Comet6,
+  .coLMet12 {
+    float: left; /* done */
+  }
+}
+
+@media (min-width: 992px) {
+  /* done */
+  .SetSP {
+    width: 33.33%;
+    float: left; /* done */
+  }
+}
+
+.title1 {
+  background-color: #ffb6c1;
+}
+.title3 {
+  background-color: #ffff00;
+}
